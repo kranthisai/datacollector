@@ -37,11 +37,7 @@ import com.streamsets.pipeline.lib.mqtt.MqttClientConfigBean;
     upgrader = MqttClientSourceUpgrader.class
 )
 @HideConfigs({
-    "subscriberConf.dataFormatConfig.jsonContent",
-    "commonConf.tlsConfig.keyStoreFilePath",
-    "commonConf.tlsConfig.keyStoreType",
-    "commonConf.tlsConfig.keyStorePassword",
-    "commonConf.tlsConfig.keyStoreAlgorithm"
+    "subscriberConf.dataFormatConfig.jsonContent"
 })
 @ConfigGroups(Groups.class)
 @GenerateResourceBundle
